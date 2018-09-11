@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+  /* "*"universal selector will select every element on the page and use the specifice declarations */
+}
+
+html {
+  font-size: 62.5%;
+  //   defines 1 rem
+  /* 1 rem = 10 px  */
+}
+
+body {
+  box-sizing: border-box;
+}
