@@ -3,9 +3,19 @@
   background-image: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.822)
+      rgba($color-primary-dark, 0.8)
     ),
-    url(../img/kids-water-main.jpeg);
+    url(../img/kid-enjoying.jpeg);
+
+  //  opacity
+  //.header {
+  //   height: 95vh;
+  //   background-image: linear-gradient(
+  //       rgba(41, 41, 38, 0.5),
+  //       rgba(174, 228, 113, 0.5)
+  //     ),
+  //     url(../img/IMG_4225.JPG);
+
   background-size: cover;
   background-position: top;
   position: relative;
@@ -13,8 +23,8 @@
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   &__logo-box {
     position: absolute;
-    top: 4rem;
-    left: 4rem;
+    top: 5rem;
+    left: 5rem;
     /* absolute position .... */
   }
 
