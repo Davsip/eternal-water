@@ -1,0 +1,28 @@
+.learn {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  // background-color: rgba($color-black, 0.8);
+  z-index: 9999;
+  opacity: 0;
+
+  background-color: $color-white;
+
+  &__img-1 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+
+  &__text-learn-1 {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+}
