@@ -7,7 +7,6 @@
   // background-color: rgba($color-black, 0.8);
   z-index: 9999;
   opacity: 0;
-  background-color: $color-white;
 
   &__img-1 {
     display: block;
@@ -20,7 +19,7 @@
   }
 
   &__text-learn-1 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
     margin-left: 2rem;

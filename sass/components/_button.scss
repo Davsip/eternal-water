@@ -68,6 +68,12 @@
     transition: all 0.2s;
   }
 
+  /* button card-1 text */
+  .btn-work {
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
   &:hover {
     background-color: $color-primary;
     color: $color-white;

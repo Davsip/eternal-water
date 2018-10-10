@@ -77,9 +77,22 @@
                 </div>
                 <div class="col-1-of-2">
                     <div class="composition">
-                        <img src="./img/kids-water-2.jpeg" alt="photo 1" class="composition__photo composition__photo--p1">
+                        <!-- the curren settings will take care : "resolution and density switching"  -->
+                        <img srcset="./img/kids-water-2-small.jpeg 300w, ./img/kids-water-2.jpeg 1000w" sizes="(max-width:56.25em) 20vw,(max-width:37.5em) 30vh, 300px"
+                            alt="photo 1" class="composition__photo composition__photo--p1" img src="./img/kids-water-2.jpeg">
+
+                        <img srcset="./img/kids-water-1-small.jpeg 300w, ./img/kids-water-1.jpeg 1000w" sizes="(max-width:56.25em) 20vh,(max-width:37.5em) 30vh, 300px"
+                            alt="photo 2" class="composition__photo composition__photo--p2" img src="./img/kids-water-1.jpeg">
+
+                        <img srcset="./img/kids-water-3-small.jpeg 300w, ./img/kids-water-3.jpeg 1000w" sizes="(max-width:56.25em) 20vh,(max-width:37.5em) 30vh, 300px"
+                            alt="photo 3" class="composition__photo composition__photo--p3" img src="./img/kids-water-3.jpeg">
+
+
+
+
+                        <!-- <img src="./img/kids-water-2.jpeg" alt="photo 1" class="composition__photo composition__photo--p1">
                         <img src="./img/kids-water-1.jpeg" alt="photo 2" class="composition__photo composition__photo--p2">
-                        <img src="./img/kids-water-3.jpeg" alt="photo 3" class="composition__photo composition__photo--p3">
+                        <img src="./img/kids-water-3.jpeg" alt="photo 3" class="composition__photo composition__photo--p3"> -->
                     </div>
                 </div>
             </div>
@@ -88,62 +101,86 @@
         <section class="section-features">
             <!-- <i class="far fa-hand-holding-water"></i> -->
             <div class="row">
+
                 <div class="col-1-of-4">
+                    <!-- <a href="#popup-work" class="btn-work"> -->
                     <div class="feature-box">
                         <!-- <i class=" feature-box__icon icon-basic-world"></i> -->
                         <i class="feature-box__icon icon-basic-hammer"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Our Work</h3>
                         <p class="feature-box__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vero porro quia dolorum sint
+                            We are focusing on communities in providing children and families with clean water. Lorem
+                            ipsum, dolor sit amet consectetur adipisicing elit. Aperiam vero omnis ullam aliquid!
+                            Aspernatur culpa, distinctio aut deleniti cumque placeat accusamus, delectus laboriosam
+                            porro consectetur, nesciunt nam odio natus aperiam.
                         </p>
                     </div>
+                    <!-- </a> -->
                 </div>
 
                 <div class="col-1-of-4">
+                    <!-- <a href="#popup-where" class="card-2"> -->
                     <div class="feature-box">
                         <!-- <i class=" feature-box__icon icon-basic-world"></i> -->
                         <i class="feature-box__icon icon-basic-geolocalize-05"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Where</h3>
                         <p class="feature-box__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vero porro quia dolorum sint
+                            Currently working hard in Central America, in a small village, specifically,
+                            Guatemala. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias libero cumque
+                            inventore consequatur, culpa adipisci modi eum suscipit distinctio! Vel sapiente nobis
+                            doloribus labore quis quibusdam porro veritatis, eveniet aspernatur?
                         </p>
                     </div>
+                    <!-- </a> -->
                 </div>
 
                 <div class="col-1-of-4">
+                    <!-- <a href="#popup-plan" class="card-3"> -->
                     <div class="feature-box">
                         <!-- <i class=" feature-box__icon icon-basic-world"></i> -->
                         <i class="feature-box__icon icon-basic-notebook"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Plan</h3>
                         <p class="feature-box__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vero porro quia dolorum sint
+                            It's about to reach to more communities, efficiently and faster, we need more people
+                            to have clean
+                            water. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam porro iste explicabo
+                            temporibus perspiciatis amet libero similique veritatis velit commodi, qui nesciunt
+                            voluptates!
                         </p>
                     </div>
+                    <!-- </a> -->
                 </div>
 
                 <div class="col-1-of-4">
+                    <!-- <a href="#popup-mission" class="card-4"> -->
                     <div class="feature-box">
                         <!-- <i class=" feature-box__icon icon-basic-world"></i> -->
                         <i class="feature-box__icon icon-basic-heart"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Our Mission</h3>
                         <p class="feature-box__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vero porro quia dolorum sint
-                        </p>
+                            Eternal Water is a <em>nonprofit</em> organization that believe that giving, it's
+                            saving
+                            people's lives. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quos
+                            quibusdam. Natus atque, a facere ipsam velit minima incidunt, blanditiis pariatur
+                            voluptates quam consequatur </p>
                     </div>
+                    <!-- </a> -->
                 </div>
             </div>
         </section>
+        <br>
+        <br>
 
-        <section class="section-stories">
+        <video class="bg-video__content" autoplay muted loop>
+            <source src="./img/water-slow-motion.mp4" type="video/mp4">
+            <!-- <source src="./img/Baga-Beach.webm" type="video/webm"> -->
+            Your browser is not supported!
+        </video>
 
-            <div class="bg-video">
-                <video class="bg-video__content" autoplay muted loop>
-                    <source src="./img/Baga-Beach.mp4" type="video/mp4">
-                    <source src="./img/Baga-Beach.webm" type="video/webm">
-                    Your browser is not supported!
-                </video>
-            </div>
-            <div class="u-center-text u-margin-bottom-big">
+        <br>
+        <br>
+
+        <!-- <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Meet our team
                 </h2>
@@ -223,8 +260,8 @@
             </div>
             <div class="u-center-text u-margin-top-huge">
                 <a href="#popup" class="btn-text">Know more team members&rarr;</a>
-            </div>
-        </section>
+            </div> -->
+
     </main>
 
     <!-- <section class="second-picture">
@@ -232,40 +269,26 @@
         <img src="../img/kids-water-pump.png" alt="" class="main-landing">
     </section> -->
 
-
-
-
     <div class="Learn" id="learn">
-        <h2 class="heading-secondary u-margin-bottom-small ">Water Crisis Facts</h2>
+        <h2 class="heading-secondary u-margin-bottom-small ">Mission</h2>
 
         <p class="learn__text-learn-1">
-            <b>2.1 billion people</b> lack access to safely managed drinking water services. (WHO/UNICEF 2017)
-            4.5 billion people lack safely managed sanitation services. (WHO/UNICEF 2017)
-            <b>340,000 children under five die every year from diarrhoeal diseases.</b> (WHO/UNICEF 2015)
-            Water scarcity already affects four out of every 10 people. (WHO)
-            90% of all natural disasters are water-related. (UNISDR)
-            80% of wastewater flows back into the ecosystem without being treated or reused (UNESCO, 2017)
-            Around two-thirds of the world’s transboundary rivers do not have a cooperative management
-            framework. (SIWI).
-            Agriculture accounts for 70% of global water withdrawal. (FAO)
-            Roughly 75% of all industrial water withdrawals are used for energy production. (UNESCO, 2014).
-            Unclean water and poor sanitation are a leading cause of child mortality. Childhood diarrhoea is
-            closely associated with insufficient water supply, inadequate sanitation, water contaminated with
-            communicable disease agents, and poor hygiene practices. Diarrhoea is estimated to cause 1.5
-            million child deaths per year, mostly among children under five living in developing countries.
-        </p>
-        <img src="./img/drought-1.jpg" alt="project-1" class="learn__img-1">
-    </div>
-    </div>
-    </div>
+            Water is Life-Water for the World -Eternal Water promotes life and rural community development by providing
+            sustainable
+            resources, water sources that enable those underprivileged and lacking necessities to not only survive but
+            thrive.
 
+        </p>
+        <!-- <img src="./img/drought-1.jpg" alt="project-1" class="learn__img-1"> -->
+        <!-- <img srcset="./img/drought-1-small.jpeg 300w, ./img/drought-1.jpg 1000w" sizes="(max-width:900px) 20vw,(max-width:600px) 30vh, 300px"
+            alt="project-1" class="learn__img-1" img src="./img/drought-1.jpg"> -->
+    </div>
+    </div>
+    </div>
     <div class="Learn" id="learn">
         <div class="learn__content-1">
-
-            <h2 class="heading-secondary u-margin-bottom-small ">What we can do yo help?</h2>
-
+            <h2 class="heading-secondary u-margin-bottom-small ">What we can do to help?</h2>
             <p class="learn__text-learn-1">
-
 
                 Together, we can free these children from deadly, preventable diseases, liberate women and girls from a
                 life spent gathering dirty, contaminated water, and open the door to education and a promising future.
@@ -280,23 +303,22 @@
                 Latrines and hand-washing stations</p>
 
             </p>
-            <img src="./img/hand-water-hand-in-hand-female-163762.jpeg" alt="project-1" class="learn__img-1">
+            <!-- <img src="./img/kids2018.JPG" alt="project-2" class="learn__img-1"> -->
+            <img srcset="./img/kids2018-small.JPG 300w, ./img/kids2018.JPG 1000w" sizes="(max-width:900px) 20vw,(max-width:600px) 30vh, 300px"
+                alt="project-2" class="learn__img-1">
+
         </div>
     </div>
-
-
-
-
-
-
-
 
     <footer class="footer">
         <div class="footer__logo-box">
 
             <picture class="footer__logo">
-                <img src="./img/Asset-9-small.png" alt="Full logo" class="footer__logo">
+
+                <source srcset="./img/Asset-9-small.png 1x, ./img/Asset-9.png 2x" media="(max-width: 37.5em)">
+                <img srcset="./img/Asset-9-small.png 1x, ./img/Asset-9.png 2x" alt="Full logo" class="footer__logo">
             </picture>
+
         </div>
         <div class="row">
             <div class="col-1-of-2">
@@ -326,6 +348,12 @@
             </div>
         </div>
     </footer>
+
+
+    <div class="popup-work" id="#">
+        <div class="popup-work__content-w"></div>
+        hhola
+    </div>
 
 
 
